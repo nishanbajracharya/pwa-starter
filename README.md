@@ -21,11 +21,19 @@ To run the app, run the following command:
 ```
 yarn start
 ```
+or
+```
+npm run start
+```
 Then open `http://localhost:3000` in a web browser.
 
 To create a production build:
 ```
 yarn build
+```
+or
+```
+npm run build
 ```
 This will setup a production ready build in the `build/` directory.
 
@@ -33,4 +41,8 @@ This will setup a production ready build in the `build/` directory.
 To deploy to gh-pages of the github repo (defined in `homepage` of `package.json`):
 ```
 yarn deploy
+```
+or
+```
+npm run deploy
 ```
