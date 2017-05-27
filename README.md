@@ -21,11 +21,14 @@ To run the app, run the following command:
 ```
 yarn start
 ```
+Then open `http://localhost:3000` in a web browser.
 
 To create a production build:
 ```
 yarn build
 ```
+This will setup a production ready build in the `build/` directory.
+
 
 To deploy to gh-pages of the github repo (defined in `homepage` of `package.json`):
 ```
